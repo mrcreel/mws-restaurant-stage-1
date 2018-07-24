@@ -1,0 +1,9 @@
+{
+  "name": "Local Eats",
+  "short_name": "Local Eats",
+  "theme_color": "#003300",
+  "background_color": "#003300",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/"
+}
