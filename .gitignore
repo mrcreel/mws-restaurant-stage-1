@@ -1,3 +1,4 @@
 /.config
 /node_modules
-/.vscode
+
+/css/styles.1.css
