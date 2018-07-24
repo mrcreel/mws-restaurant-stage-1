@@ -16,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/mrcreel/mws-restaurant-stage-1/issues"
   },
-  "homepage": "https://github.com/mrcreel/mws-restaurant-stage-1#readme"
+  "homepage": "https://github.com/mrcreel/mws-restaurant-stage-1#readme",
+  "dependencies": {
+    "commitizen": "^2.10.1",
+    "styled-components": "^3.3.3"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
