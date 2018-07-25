@@ -4,7 +4,6 @@
   "description": "--- #### _Three Stage Course Material Project - Restaurant Reviews_",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git-cz"
   },
   "repository": {
@@ -18,12 +17,13 @@
     "url": "https://github.com/mrcreel/mws-restaurant-stage-1/issues"
   },
   "homepage": "https://github.com/mrcreel/mws-restaurant-stage-1#readme",
-  "dependencies": {
-    "commitizen": "^2.10.1",
-    "styled-components": "^3.3.3"
-  },
+
   "devDependencies": {
-    "cz-conventional-changelog": "^2.1.0"
+    "commitizen": "^2.10.1",
+    "browser-sync": "^2.24.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-uglifycss": "^1.1.0"
   },
   "config": {
     "commitizen": {
